@@ -1438,10 +1438,6 @@ button {
 	grid-template-columns: 1fr 1fr 1fr;
 }
 
-.grid-25 {
-	grid-template-columns: repeat(6, 1fr);
-}
-
 .grid-25 a {
 	border: 1px solid var(--gris);
 	background-color: var(--blanco);
@@ -3473,6 +3469,19 @@ button {
 		justify-content: flex-end;
 		align-items: flex-start;
 		gap: 48px;
+	}
+
+	.img-desktop {
+		display: block;
+	}
+
+	.mobile--flex-50-none {
+		display: block;
+	}
+
+	.grid-25 {
+		grid-template-columns: repeat(6, 1fr);
+		gap: 24px;
 	}
 
 }
