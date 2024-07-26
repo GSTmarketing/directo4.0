@@ -1031,6 +1031,11 @@ h4 {
 	background-color: var(--gris);
 }
 
+.bg-gris-claro {
+	background-color: var(--gris);
+}
+
+
 .bgVioleta {
 	background-color: var(--violeta);
 }
@@ -1428,7 +1433,12 @@ button {
 }
 
 .grid-25 {
-	grid-template-columns: repeat(4, 1fr);
+	grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-25 a {
+    border: 1px solid var(--gris-claro);
+    background-color: var(--blanco);
 }
 
 .grid-center {
@@ -1524,7 +1534,7 @@ button {
 	}
 
 	.container-100 {
-		padding: 0px 0px;
+		padding: 80px 0px;
 		margin: 0px auto 120px;
 		width: 1120px;
 	}
@@ -1577,9 +1587,10 @@ button {
 	}
 
 	h2 {
-		font-family: Directo;
+		font-family: DirectoSemiLight;
 		font-size: var(--tenis);
 		line-height: 125%;
+		margin-bottom: 36px;
 	}
 
 	h3 {

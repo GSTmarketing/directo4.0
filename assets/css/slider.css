@@ -1,6 +1,8 @@
 .swiper-slide {
   width: 100%;
   border-radius: 12px;
+  border: 1px solid var(--gris);
+  background-color: var(--blanco);
 }
 
 .swiper-slide-hero {
@@ -31,7 +33,7 @@
 
 .swiper-pagination {
   position: relative;
-  margin-top: 20px;
+  margin-top: 32px;
 }
 
 .swiper-pagination-bullet-active {
