@@ -438,8 +438,8 @@ li a {
 
 .comercios-grupo {
 	display: flex;
-    flex-direction: column;
-    gap: 120px;
+	flex-direction: column;
+	gap: 120px;
 }
 
 .comerciosFeatures {
@@ -1443,8 +1443,8 @@ button {
 }
 
 .grid-25 a {
-    border: 1px solid var(--gris);
-    background-color: var(--blanco);
+	border: 1px solid var(--gris);
+	background-color: var(--blanco);
 	border-radius: 12px;
 }
 
@@ -2052,11 +2052,11 @@ button {
 	}
 
 	.cuotasSinInteres {
-		background-image: url(/assets/images/hero--para-vos--cuotas.png);
+		background-image: url(/assets/images/hero--para-vos--cuotas_v2.png);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
-		height: 640px;
+		height: 400px;
 		width: 100%;
 	}
 
@@ -3447,16 +3447,32 @@ button {
 	}
 
 	.modulo-companias-grilla {
-    grid-template-columns: repeat(10, 1fr);
-    gap: 32px;
+		grid-template-columns: repeat(10, 1fr);
+		gap: 32px;
 	}
-	
+
 	.modulo-companias-grilla img {
 		padding: 0px;
 	}
 
 	.modulo-companias {
 		padding: 80px 0px;
+	}
+
+	.footer-nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	.footer-nav_menu {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		justify-content: flex-end;
+		align-items: flex-start;
+		gap: 48px;
 	}
 
 }
