@@ -2056,6 +2056,15 @@ button {
 		width: 100%;
 	}
 
+	.cuotasSinInteresV2 {
+		background-image: url(/assets/images/hero--para-vos--cuotas_v2.webp);
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 400px;
+		width: 100%;
+	}
+
 	.quienes-somos {
 		background-image: url(/assets/images/quienes-somos--equipo.jpg);
 		background-position: center;
