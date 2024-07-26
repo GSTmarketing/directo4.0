@@ -436,6 +436,12 @@ li a {
 	text-align: center;
 }
 
+.comercios-grupo {
+	display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
 .comerciosFeatures {
 	flex-basis: auto;
 	grid-template-columns: 1fr;
@@ -1032,7 +1038,7 @@ h4 {
 }
 
 .bg-gris-claro {
-	background-color: var(--gris);
+	background-color: var(--gris-claro);
 }
 
 
@@ -1437,8 +1443,9 @@ button {
 }
 
 .grid-25 a {
-    border: 1px solid var(--gris-claro);
+    border: 1px solid var(--gris);
     background-color: var(--blanco);
+	border-radius: 12px;
 }
 
 .grid-center {
@@ -3437,6 +3444,19 @@ button {
 
 	.menu-desktop_ayuda a {
 		text-decoration: underline;
+	}
+
+	.modulo-companias-grilla {
+    grid-template-columns: repeat(10, 1fr);
+    gap: 32px;
+	}
+	
+	.modulo-companias-grilla img {
+		padding: 0px;
+	}
+
+	.modulo-companias {
+		padding: 80px 0px;
 	}
 
 }
