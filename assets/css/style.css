@@ -3394,11 +3394,13 @@ button {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		width: 24px;
-		height: 24px;
+		width: 48px;
+		height: 48px;
 		border-radius: 50%;
 		background-color: var(--violetaLight);
 		color: var(--violeta);
+		font-size: var(--golf);
+		font-family: 'DirectoSemiLight';
 	}
 
 	.mobile--flex-column {
@@ -3482,6 +3484,44 @@ button {
 	.grid-25 {
 		grid-template-columns: repeat(6, 1fr);
 		gap: 24px;
+	}
+
+	.container-hero {
+		width: 1120px;
+		height: 400px;
+		margin: 0px auto 0px;
+		border-radius: 12px;
+	}
+
+	.lista {
+		display: flex;
+		flex-direction: row;
+		gap: 24px;
+	}
+
+	.lista div {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 12px;
+		font-family: var(--secundaria);
+		font-size: var(--pingpong);
+		line-height: 140%;
+		flex: 1 1 33.3%;
+	}
+
+	.container-comprar {
+		display: flex;
+		flex-direction: column;
+		gap: 32px;
+		flex-basis: 50%;
+		background-color: var(--gris-claro);
+		padding: 36px;
+		border-radius: 12px;
+	}
+
+	.container-comprar h5 {
+		text-align: center;
 	}
 
 }
