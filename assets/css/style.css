@@ -91,6 +91,7 @@ h3 {
 	font-family: Directo;
 	font-size: var(--golf);
 	line-height: 125%;
+	margin-bottom: 40px;
 }
 
 h4 {
@@ -982,7 +983,7 @@ h4 {
 }
 
 .gExtraExtraSmall {
-	gap: 8px;
+	gap: 16px;
 }
 
 .gExtraSmall {
@@ -1699,7 +1700,7 @@ button {
 		margin-bottom: 48px;
 	}
 
-	.mMediumBottom {
+	.mb-m {
 		margin-bottom: 80px;
 	}
 
@@ -3536,12 +3537,35 @@ button {
 	.neon {
 		color: #fff6a9;
 		text-shadow: 0 0 5px #00ffff,
-		0 0 15px #00ffff,
-		0 0 20px #00ffff,
-		0 0 40px #00ffff,
-		0 0 60px #ffffff,
-		0 0 10px #00ffff,
-		0 0 98px #ffffff;
+			0 0 15px #00ffff,
+			0 0 20px #00ffff,
+			0 0 40px #00ffff,
+			0 0 60px #ffffff,
+			0 0 10px #00ffff,
+			0 0 98px #ffffff;
+	}
+
+	.container-50 {
+		display: flex;
+		gap: 80px;
+		align-items: center;
+	}
+
+	.container-50_l-side {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		flex: 1 1 50%;
+	}
+
+	.container-50_r-side {
+		flex: 1 1 50%;
+	}
+
+	.container-50_r-side img {
+		height: 460px;
+		object-fit: cover;
+		border-radius: 12px;
 	}
 
 }
