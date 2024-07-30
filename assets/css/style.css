@@ -1601,6 +1601,7 @@ button {
 		font-family: DirectoSemiLight;
 		font-size: var(--handball);
 		line-height: 125%;
+		margin-bottom: 36px;
 	}
 
 	h4 {
@@ -3534,17 +3535,6 @@ button {
 		text-align: center;
 	}
 
-	.neon {
-		color: #fff6a9;
-		text-shadow: 0 0 5px #00ffff,
-			0 0 15px #00ffff,
-			0 0 20px #00ffff,
-			0 0 40px #00ffff,
-			0 0 60px #ffffff,
-			0 0 10px #00ffff,
-			0 0 98px #ffffff;
-	}
-
 	.container-50 {
 		display: flex;
 		gap: 80px;
@@ -3568,4 +3558,14 @@ button {
 		border-radius: 12px;
 	}
 
+	.caracteristica {
+		display: flex;
+		flex-direction: row;
+		gap: 16px;
+		flex: 1 1 50%;
+	}
+
+	.caracteristica .material-symbols-rounded {
+        font-size: 42px !important;
+    }
 }
