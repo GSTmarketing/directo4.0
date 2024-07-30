@@ -1153,13 +1153,13 @@ footer a {
 }
 
 .container-footer_legal {
-	padding: 36px 24px;
-	margin: 0px auto 0px;
-	width: -webkit-fill-available;
+	background-color: var(--gris-claro);
 }
 
 .footer-legal {
-	background-color: var(--gris-claro);
+	padding: 36px 24px;
+	margin: 0px auto 0px;
+	width: -webkit-fill-available;
 }
 
 .footer-legal div {
@@ -1515,7 +1515,7 @@ button {
 	.container-nav {
 		padding: 0px 0px;
 		margin: 0px auto 0px;
-		width: 1120px;
+		width: 1280px;
 	}
 
 	.mobile-main {
@@ -1553,9 +1553,9 @@ button {
 	}
 
 	.container-footer {
-		padding: 80px 120px;
-		margin: 0px auto 48px;
-		width: 1440px;
+		padding: 80px 0px;
+		margin: 0px auto 0px;
+		width: 1280px;
 	}
 
 	.container-faqs {
@@ -1629,15 +1629,6 @@ button {
 		font-family: var(--secundaria);
 		font-size: var(--pingpong);
 		line-height: 150%;
-	}
-
-	li {
-		font-family: var(--secundaria);
-		font-size: var(--pingpong);
-		line-height: 150%;
-		list-style-position: inside;
-		text-indent: -20px;
-		margin-left: 20px;
 	}
 
 	a:hover {
@@ -3573,9 +3564,13 @@ button {
 	}
 
 	.container-footer_legal {
+		background-color: var(--gris-claro);
+	}
+
+	.footer-legal {
 		padding: 40px 0px;
 		margin: 0px auto 0px;
-		width: 1120px;
+		width: 1280px;
 	}
 
 	.footer-legal_item {
@@ -3583,6 +3578,11 @@ button {
 		flex-direction: row;
 		flex-wrap: wrap;
 		gap: 12px;
+	}
+
+	.footer-company_item {
+		width: 1120px;
+		margin: 0px auto 0px;
 	}
 
 }
