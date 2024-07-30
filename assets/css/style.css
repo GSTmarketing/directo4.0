@@ -208,6 +208,15 @@ nav span {
 	width: 100%;
 }
 
+.cuotasSinInteres {
+	background-image: url(/assets/images/hero-mobile--cuotas@2x.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 480px;
+	width: 100%;
+}
+
 .efectivo h1 {
 	font-size: var(--tenis);
 	color: var(--blanco);
@@ -2052,15 +2061,6 @@ button {
 		width: 100%;
 	}
 
-	.cuotasSinInteresV2 {
-		background-image: url(/assets/images/hero--para-vos--cuotas_v2.webp);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 400px;
-		width: 100%;
-	}
-
 	.quienes-somos {
 		background-image: url(/assets/images/quienes-somos--equipo.jpg);
 		background-position: center;
@@ -3573,7 +3573,7 @@ button {
 		width: 1280px;
 	}
 
-	.footer-legal_item {
+	.footer-legal div {
 		display: inline-flex;
 		flex-direction: row;
 		flex-wrap: wrap;
@@ -3581,8 +3581,18 @@ button {
 	}
 
 	.footer-company_item {
-		width: 1120px;
+		width: 1280px;
 		margin: 0px auto 0px;
+	}
+
+	.footer-legal_logos img {
+		width: auto;
+	}
+
+	.container-50_side img {
+		height: 420px;
+		object-fit: cover;
+		border-radius: 12px;
 	}
 
 }
