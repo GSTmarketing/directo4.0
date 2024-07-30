@@ -1471,7 +1471,7 @@ button {
 }
 
 .ayuda-respuesta a {
-	display: flex;
+	display: inline-flex;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
@@ -1550,13 +1550,13 @@ button {
 	}
 
 	.container-footer {
-		padding: 0px 120px;
+		padding: 80px 120px;
 		margin: 0px auto 48px;
 		width: 1440px;
 	}
 
 	.container-faqs {
-		padding: 0px 320px;
+		padding: 80px 320px;
 		margin: 0px auto 48px;
 		width: 1440px;
 	}
