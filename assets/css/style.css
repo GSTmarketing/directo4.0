@@ -1544,6 +1544,24 @@ button {
 	text-align: center;
 }
 
+.lista span {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	background-color: var(--violetaLight);
+	color: var(--violeta);
+	font-size: var(--golf);
+	font-family: 'DirectoSemiLight';
+}
+
+.container-comprar_icon {
+	font-size: 64px !important;
+	text-align: center;
+}
+
 @media (min-width: 768px) {}
 
 @media (min-width: 1024px) {
@@ -3558,6 +3576,7 @@ button {
 
 	.container-50 {
 		display: flex;
+		flex-direction: row;
 		gap: 80px;
 		align-items: center;
 	}
