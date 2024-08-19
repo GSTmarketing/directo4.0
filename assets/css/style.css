@@ -1640,16 +1640,6 @@ button {
 		flex: 3;
 	}
 
-	.efectivo {
-		background-image: url(/assets/images/hero--para-vos--efectivo.webp);
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		height: 640px;
-		width: 100%;
-		margin: 80px auto;
-	}
-
 	h1 {
 		font-family: Directo;
 		font-size: var(--futbol);
@@ -2056,7 +2046,7 @@ button {
 	}
 
 	.efectivo {
-		background-image: url(/assets/images/hero--para-vos--efectivo.jpg);
+		background-image: url(/assets/images/hero--para-vos--efectivo.webp);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
