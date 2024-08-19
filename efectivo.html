@@ -224,11 +224,11 @@
     <main>
         <section class="">
             <div class="efectivo p-hero flex flexColumn gSmall">
-                <div>
+                <div class="oculto">
                     <h1>Efectivo 100% online</h1>
                     <h3>¡Hasta $850.000 en cuotas fijas!</h3>
                 </div>
-                <div>
+                <div class="">
                     <a href="https://app.directo.com.ar/solicitud-prestamo?utm_source=web_directo&utm_medium=efectivo&utm_content=banner"
                         class="button button-xl" target="_self">
                         <span>Pedí tu efectivo hoy</span>
@@ -269,37 +269,39 @@
 
         <section class="container-100">
             <div class="flex gSmall mobile--flex-column">
-                <div class="flex flexColumn flex-50 gExtraSmall">
-                    <div>
-                        <h2 class="pb-xxsmall">¿Qué vas a necesitar para sacar un préstamo?</h2>
-                        <h6>Es súper fácil y rápido. la plata del préstamo se acredita en tu cuenta bancaria en el mismo
-                            día</h6>
+                <div>
+                    <div class="flex flexColumn flex-50 gExtraSmall">
+                        <div>
+                            <h2 class="pb-xxsmall">¿Qué vas a necesitar para sacar un préstamo?</h2>
+                            <h6>Es súper fácil y rápido. la plata del préstamo se acredita en tu cuenta bancaria en el mismo
+                                día</h6>
+                        </div>
                     </div>
-                </div>
-                <div class="grid-group">
-                    <div>
-                        <span class="material-symbols-rounded">
-                            phone_iphone
-                        </span>
-                        <h6>Tu celular</h6>
-                    </div>
-                    <div>
-                        <span class="material-symbols-rounded">
-                            fingerprint
-                        </span>
-                        <h6>DNI</h6>
-                    </div>
-                    <div>
-                        <span class="material-symbols-rounded">
-                            account_balance
-                        </span>
-                        <h6>Un CBU/CVU a tu nombre</h6>
-                    </div>
-                    <div>
-                        <span class="material-symbols-rounded">
-                            person
-                        </span>
-                        <h6>Ser mayor de 18 años</h6>
+                    <div class="grid-group">
+                        <div>
+                            <span class="material-symbols-rounded">
+                                phone_iphone
+                            </span>
+                            <h6>Tu celular</h6>
+                        </div>
+                        <div>
+                            <span class="material-symbols-rounded">
+                                fingerprint
+                            </span>
+                            <h6>DNI</h6>
+                        </div>
+                        <div>
+                            <span class="material-symbols-rounded">
+                                account_balance
+                            </span>
+                            <h6>Un CBU/CVU a tu nombre</h6>
+                        </div>
+                        <div>
+                            <span class="material-symbols-rounded">
+                                person
+                            </span>
+                            <h6>Ser mayor de 18 años</h6>
+                        </div>
                     </div>
                 </div>
                 <div>
@@ -313,7 +315,7 @@
 
         <section class="bgVioletaLight">
             <div class="container-100">
-                <div class="card100">
+                <div class="card-medios-de-pago">
                     <h2 class="azul">¿Cómo lo podes pagar?</h2>
                     <h6>Super fácil. Podés pagar a través de home banking. Podés utilizar PagoMisCuentas, LinkPagos,
                         MercadoPago. También podés pagar tus compras en cuotas con tarjeta de débito.</h6>
@@ -433,40 +435,79 @@
             </div>
         </section>
 
-        <section>
-            <div class="container-faqs container-100_header">
-                <div>
-                    <h2>Preguntas frecuentes</h2>
-                </div>
-                <div class="flex flexColumn gExtraSmall">
-                    <div class="faqs--individual">
-                        <h5>¿A dónde tengo que ir para sacar el préstamo?</h5>
-                        <p>¡A ningún lado! Tu solicitud de préstamo es 100% online y podés pedirlo desde cualquier parte
-                            del país. <a
-                                href="https://app.directo.com.ar/solicitud-prestamo?utm_source=web_directo&utm_medium=efectivo&utm_content=banner"
-                                class="highlight">Sacalo ahora.</a></p>
-                    </div>
-                    <div class="faqs--individual">
-                        <h5>¿Cuáles son los requisitos para solicitar un préstamo online?</h5>
-                        <p>Sólo es necesario estar radicado en Argentina y tener una cuenta bancaria (CBU/CVU). <a
-                                href="https://app.directo.com.ar/solicitud-prestamo?utm_source=web_directo&utm_medium=efectivo&utm_content=banner"
-                                class="highlight">Pedí tu
-                                préstamo ahora.</a></p>
-                    </div>
-                    <div class="faqs--individual">
-                        <h5>¿Cómo puedo saber el estado de mi préstamo?</h5>
-                        <p>Muy fácil. Ingresá a Info de Mi Préstamo. Acá vas a tener toda la información de tu crédito,
-                            si ya está acreditado, que cuotas pagaste, cuantas faltan y mas. <a
-                                href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login"
-                                class="highlight">Ingresá desde aquí.</a></p>
-                    </div>
-                    <div class="faqs--individual">
-                        <h5>No pude pagar en la fecha de vencimiento. ¿Tengo alguna penalidad?</h5>
-                        <p>Si. Se cobran intereses y gastos de acuerdo a los días que te atrasaste.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
+        <section class="bg-gris-claro">
+			<div class="container-faqs">
+				<div class="mb-m center">
+					<h3>Preguntas frecuentes</h3>
+				</div>
+				<div class="container-ayuda_categoria" id="comercios">
+					<div class="ayuda-respuesta">
+						<a class="ayuda-pregunta" data-bs-toggle="collapse" href="#comercio01" role="button"
+							aria-expanded="false" aria-controls="collapseExample">
+							<h5>¿A dónde tengo que ir para sacar el préstamo?</h5>
+							<span class="material-symbols-rounded rotar">
+								keyboard_arrow_down
+							</span>
+						</a>
+						<div class="collapse" id="comercio01">
+							<div>
+								<p>¡A ningún lado! Tu solicitud de préstamo es 100% online y podés pedirlo desde cualquier parte
+                                    del país. <a
+                                        href="https://app.directo.com.ar/solicitud-prestamo?utm_source=web_directo&utm_medium=efectivo&utm_content=banner"
+                                        class="highlight">Sacalo ahora.</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="ayuda-respuesta">
+						<a class="ayuda-pregunta" data-bs-toggle="collapse" href="#comercio02" role="button"
+							aria-expanded="false" aria-controls="collapseExample">
+							<h5>¿Cuáles son los requisitos para solicitar un préstamo online?</h5>
+							<span class="material-symbols-rounded rotar">
+								keyboard_arrow_down
+							</span>
+						</a>
+						<div class="collapse" id="comercio02">
+							<div>
+								<p>Sólo es necesario estar radicado en Argentina y tener una cuenta bancaria (CBU/CVU). <a
+                                    href="https://app.directo.com.ar/solicitud-prestamo?utm_source=web_directo&utm_medium=efectivo&utm_content=banner"
+                                    class="highlight">Pedí tu
+                                    préstamo ahora.</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="ayuda-respuesta">
+						<a class="ayuda-pregunta" data-bs-toggle="collapse" href="#comercio03" role="button"
+							aria-expanded="false" aria-controls="collapseExample">
+							<h5>¿Cómo puedo saber el estado de mi préstamo?</h5>
+							<span class="material-symbols-rounded rotar">
+								keyboard_arrow_down
+							</span>
+						</a>
+						<div class="collapse" id="comercio03">
+							<div>
+								<p>Muy fácil. Ingresá a Info de Mi Préstamo. Acá vas a tener toda la información de tu crédito,
+                                    si ya está acreditado, que cuotas pagaste, cuantas faltan y mas. <a
+                                        href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login"
+                                        class="highlight">Ingresá desde aquí.</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="ayuda-respuesta">
+						<a class="ayuda-pregunta" data-bs-toggle="collapse" href="#comercio04" role="button"
+							aria-expanded="false" aria-controls="collapseExample">
+							<h5>No pude pagar en la fecha de vencimiento. ¿Tengo alguna penalidad?</h5>
+							<span class="material-symbols-rounded rotar">
+								keyboard_arrow_down
+							</span>
+						</a>
+						<div class="collapse" id="comercio04">
+							<div>
+								<p>Si. Se cobran intereses y gastos de acuerdo a los días que te atrasaste.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
         <footer>
 			<div class="container-footer">
 				<div class="footer-nav">

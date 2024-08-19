@@ -49,9 +49,9 @@ body {
 /* MOBILE */
 
 .container-100 {
-    padding: 80px 24px;
-    margin: 0px auto 0px;
-    width: -webkit-fill-available;
+	padding: 80px 24px;
+	margin: 0px auto 0px;
+	width: -webkit-fill-available;
 }
 
 .container-100_header {
@@ -68,9 +68,9 @@ body {
 }
 
 .container-footer {
-    padding: 40px 24px;
-    margin: 0px auto 0px;
-    width: -webkit-fill-available;
+	padding: 40px 24px;
+	margin: 0px auto 0px;
+	width: -webkit-fill-available;
 }
 
 /* FONTS */
@@ -196,7 +196,7 @@ nav span {
 }
 
 .efectivo {
-	background-image: url(/assets/images/hero-mobile--efectivo-001.png);
+	background-image: url(/assets/images/hero-mobile--para-vos--efectivo.webp);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -745,7 +745,8 @@ li a {
 .module-rating {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: flex-start;
+	min-height: 180px;
 	gap: 12px;
 	padding: 24px;
 	text-align: center;
@@ -924,9 +925,9 @@ p.legalText,
 /* FAQS */
 
 .container-faqs {
-    padding: 80px 24px;
-    margin: 0px auto 0px;
-    width: -webkit-fill-available;
+	padding: 80px 24px;
+	margin: 0px auto 0px;
+	width: -webkit-fill-available;
 }
 
 /* BUTTON */
@@ -1256,18 +1257,14 @@ button {
 }
 
 .button-l {
-	height: 40px;
+	height: 44px;
 	padding: 0 24px;
 	background-color: var(--azul);
 	color: var(--blanco);
-	font-size: var(--pingpong);
+	font-size: var(--marble);
 	font-family: 'DirectoSemiLight';
 	letter-spacing: 0.25px;
 	white-space: nowrap;
-}
-
-.button-xl .button-l:hover {
-	background-color: var(--violeta);
 }
 
 .button-md-secondary {
@@ -1505,19 +1502,19 @@ button {
 }
 
 .container-50 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
 }
 
 .container-50 h3 {
-    margin-bottom: 24px;
+	margin-bottom: 24px;
 }
 
 .container-50 img {
-    height: 240px;
-    object-fit: cover;
-    border-radius: 12px;
+	height: 240px;
+	object-fit: cover;
+	border-radius: 12px;
 }
 
 .container-comprar {
@@ -1536,8 +1533,8 @@ button {
 }
 
 .lista {
-    text-align: left;
-    font-family: var(--secundaria);
+	text-align: left;
+	font-family: var(--secundaria);
 }
 
 .lista span {
@@ -1555,7 +1552,7 @@ button {
 }
 
 .lista div {
-    margin-bottom: 24px;
+	margin-bottom: 24px;
 }
 
 .container-comprar_icon {
@@ -1564,7 +1561,14 @@ button {
 }
 
 .caracteristica {
-    text-align: center;
+	text-align: center;
+}
+
+.card-medios-de-pago {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	gap: 24px;
 }
 
 @media (min-width: 768px) {}
@@ -1637,7 +1641,7 @@ button {
 	}
 
 	.efectivo {
-		background-image: url(/assets/images/hero--para-vos--efectivo.jpg);
+		background-image: url(/assets/images/hero--para-vos--efectivo.webp);
 		background-position: center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -3658,10 +3662,22 @@ button {
 		font-size: 24px !important;
 		color: var(--blanco);
 	}
-	
+
 	.button-icon-nav--azul {
 		font-size: 24px !important;
 		color: var(--azul);
+	}
+
+	.card-medios-de-pago {
+		padding: 0px 0px;
+		gap: 24px;
+		width: 50%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.button-xl .button-l:hover {
+		background-color: var(--violeta);
 	}
 
 }
