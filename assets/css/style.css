@@ -1544,22 +1544,36 @@ button {
 	text-align: center;
 }
 
+.lista {
+    text-align: left;
+    font-family: var(--secundaria);
+}
+
 .lista span {
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
-	width: 48px;
-	height: 48px;
+	width: 32px;
+	height: 32px;
 	border-radius: 50%;
 	background-color: var(--violetaLight);
 	color: var(--violeta);
-	font-size: var(--golf);
+	font-size: var(--pingpong);
 	font-family: 'DirectoSemiLight';
+	margin-right: 8px;
+}
+
+.lista div {
+    margin-bottom: 24px;
 }
 
 .container-comprar_icon {
 	font-size: 64px !important;
 	text-align: center;
+}
+
+.caracteristica {
+    text-align: center;
 }
 
 @media (min-width: 768px) {}
