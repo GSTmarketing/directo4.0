@@ -1,6 +1,6 @@
 :root {
 	--secundaria: 'Open Sans', sans-serif;
-	--marble: 12.5px;
+	--marble: 13px;
 	--pingpong: 15px;
 	--squash: 18px;
 	--golf: 20px;
@@ -1304,7 +1304,7 @@ button {
 	background-color: var(--azul);
 	color: var(--blanco);
 	justify-content: center;
-	font-size: var(--pingpong);
+	font-size: var(--marble);
 	font-family: 'DirectoSemiLight';
 	letter-spacing: 0.25px;
 	transition-duration: 300ms;
@@ -1420,16 +1420,6 @@ button {
 	text-decoration: none;
 }
 
-.button-icon-nav {
-	font-size: 24px !important;
-	color: var(--blanco);
-}
-
-.button-icon-nav--azul {
-	font-size: 24px !important;
-	color: var(--azul);
-}
-
 /* GRID */
 
 .grid {
@@ -1538,6 +1528,7 @@ button {
 	background-color: var(--gris-claro);
 	padding: 36px;
 	border-radius: 12px;
+	text-align: center;
 }
 
 .container-comprar h5 {
@@ -3653,6 +3644,24 @@ button {
 		height: 420px;
 		object-fit: cover;
 		border-radius: 12px;
+	}
+
+	.container-comprar_icon {
+		font-size: 64px !important;
+	}
+
+	.caracteristica {
+		text-align: left;
+	}
+
+	.button-icon-nav {
+		font-size: 24px !important;
+		color: var(--blanco);
+	}
+	
+	.button-icon-nav--azul {
+		font-size: 24px !important;
+		color: var(--azul);
 	}
 
 }
