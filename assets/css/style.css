@@ -1591,6 +1591,12 @@ button {
     transform: translate(-50%, -50%);
 }
 
+.container-asistencias {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 48px;
+}
+
 @media (min-width: 768px) {}
 
 @media (min-width: 1024px) {
