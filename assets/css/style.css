@@ -622,8 +622,13 @@ li a {
 }
 
 .moduleListLegal {
-	gap: 6px;
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	align-items: center;
 	font-size: var(--marble);
+	font-family: var(--secundaria);
+	color: var(--gris-oscuro);
 }
 
 .moduleListLegal span {
@@ -2409,6 +2414,10 @@ button {
 		align-items: center;
 	}
 
+	.modulo-centro h2 {
+		text-align: center;
+	}
+
 	.modulePagoFeaturesItemOutline {
 		border: 1.5px solid var(--violetaLight);
 		padding: 48px;
@@ -3794,6 +3803,19 @@ button {
 		width: 50%;
 		margin: 0 auto;
 		align-items: center;
+	}
+
+	.modulo-centro h4 {
+		font-family: 'DirectoLight';
+		font-size: var(--golf);
+		text-align: center;
+		white-space-collapse: preserve-breaks;
+	}
+
+	.slider-shadow {
+		padding-bottom: 12px;
+        box-shadow: inset 0px -6px 12px 5px rgb(0 0 0 / 5%);
+        background-color: var(--gris-claro);
 	}
 
 }
