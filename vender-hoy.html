@@ -104,138 +104,144 @@
 
 <body>
     <header class="site-header">
-		<div class="nav--secondary-border">
-			<div class="nav--secondary container-nav">
-				<div class="nav--secondary-paravos">
-					<a class="nav--secondary-link nav--secondary-link--inactive" href="/">Clientes</a>
-				</div>
-				<div class="nav--secondary-comercios">
-					<a class="nav--secondary-link nav--secondary-link--active" href="/vender-hoy.html">Comercios</a>
-				</div>
-			</div>
-		</div>
-		<div class="grid-header container-nav">
-			<div class="logo--nav">
-				<div class="logo">
-					<a href="/">
-						<img src="/assets/svg/directo__logo-sin-claim.svg" alt="Logo de directo"
-							class="logo-directo__header">
-					</a>
-				</div>
-				<nav class="navegacion">
-					<ul>
-						<li>
-							<a href="/vender-hoy.html">
-								<span>Vender hoy</span>
-							</a>
-						</li>
-						<li>
-							<a href="/comercio-quienes-somos.html">
-								<span>Quiénes somos</span>
-							</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="iniciar">
-				<div>
-					<a href="/suma-tu-comercio.html" class="button-md-main" target="_self">
-						<span>Sumá tu comercio</span>
-					</a>
-				</div>
-				<div class="navDropdown">
-					<button onclick="myFunction()" class="button-md-icon-line">
-						iniciar sesión
-						<span class="button-icon-nav--azul material-symbols-rounded">
-							expand_more
-						</span>
-					</button>
-					<div id="displayDropdown" class="navDropdownContent">
-						<a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login">
-							<span class="material-symbols-rounded">
-								person
-							</span>
-							soy cliente
-						</a>
-						<a href="https://micomercio.directo.com.ar/Login">
-							<span class="material-symbols-rounded">
-								store
-							</span>
-							soy comercio
-						</a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="header-mobile">
-			<a href="#" class="menu-toggle" onclick="navMobile()">
-				<span></span>
-				<span></span>
-				<span></span>
-			</a>
-		</div>
-		<div class="mobile-main" id="mobile-main">
-			<nav class="mobile-main-nav">
-				<ul class="mobile--nav" id="myTab" role="tablist">
-					<li class="nav-item" role="presentation">
-						<button class="mobile--nav--link" id="clientes-tab" data-bs-toggle="tab"
-							data-bs-target="#clientes-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
-							aria-selected="true">Clientes</button>
-					</li>
-					<li class="nav-item" role="presentation">
-						<button class="mobile--nav--link active" id="comercios-tab" data-bs-toggle="tab"
-							data-bs-target="#comercios-tab-pane" type="button" role="tab"
-							aria-controls="profile-tab-pane" aria-selected="false">Comercios</button>
-					</li>
-				</ul>
-				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane show active" id="clientes-tab-pane" role="tabpanel"
-						aria-labelledby="clientes-tab" tabindex="0">
-						<div class="mobile--nav--content--group">
-							<ul class="mobile--nav--content">
-								<li class="mobile--nav--content--link"><a href="/" target="_self">Cuotas fijas</a></li>
-								<li class="mobile--nav--content--link"><a href="/cuotas.html" target="_self">4 cuotas sin interés</a></li>
-								<li class="mobile--nav--content--link"><a href="/efectivo.html" target="_self">Efectivo hoy</a></li>
-								<li class="mobile--nav--content--link"><a href="/asistencias.html" target="_self">Asistencias</a></li>
-								<li class="mobile--nav--content--link"><a href="/quienes-somos.html" target="_self">Quiénes somos</a></li>
-							</ul>
-							<div class="mobileMainButton">
-								<div class="mobileNavAccess">
-									<a href="https://app.directo.com.ar/registro" class="button-md-icon" target="_self">
-										<span>Registrate</span>
-										<span class="button-icon-nav material-symbols-rounded">
-											chevron_right
-										</span>
-									</a>
-									<a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login"
-										class="button-md-line" target="_self">
-										<span>Iniciar Sesión</span>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade" id="comercios-tab-pane" role="tabpanel" aria-labelledby="comercios-tab"
-						tabindex="0">
-						<div class="mobile--nav--content--group">
-							<ul class="mobile--nav--content">
-								<li class="mobile--nav--content--link"><a href="/vender-hoy.html" target="_self">Vender hoy</a></li>
-								<li class="mobile--nav--content--link"><a href="/comercio-quienes-somos.html" target="_self">Quiénes somos</a></li>
-							</ul>
-							<div class="mobileMainButton">
-								<div class="mobileNavAccess">
-									<a href="https://micomercio.directo.com.ar/Login"
-										class="button-md-line" target="_self">
-										<span>Iniciar Sesión</span>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</nav>
-		</div>
-	</header>
+        <div class="nav--secondary-border">
+            <div class="nav--secondary container-nav">
+                <div class="nav--secondary-paravos">
+                    <a class="nav--secondary-link nav--secondary-link--inactive" href="/">Clientes</a>
+                </div>
+                <div class="nav--secondary-comercios">
+                    <a class="nav--secondary-link nav--secondary-link--active" href="/vender-hoy.html">Comercios</a>
+                </div>
+            </div>
+        </div>
+        <div class="grid-header container-nav">
+            <div class="logo--nav">
+                <div class="logo">
+                    <a href="/">
+                        <img src="/assets/svg/directo__logo-sin-claim.svg" alt="Logo de directo"
+                            class="logo-directo__header">
+                    </a>
+                </div>
+                <nav class="navegacion">
+                    <ul>
+                        <li>
+                            <a href="/vender-hoy.html">
+                                <span>Vender hoy</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/comercio-quienes-somos.html">
+                                <span>Quiénes somos</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="iniciar">
+                <div>
+                    <a href="/suma-tu-comercio.html" class="button-md-main" target="_self">
+                        <span>Sumá tu comercio</span>
+                    </a>
+                </div>
+                <div class="navDropdown">
+                    <button onclick="myFunction()" class="button-md-icon-line">
+                        iniciar sesión
+                        <span class="button-icon-nav--azul material-symbols-rounded">
+                            expand_more
+                        </span>
+                    </button>
+                    <div id="displayDropdown" class="navDropdownContent">
+                        <a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login">
+                            <span class="material-symbols-rounded">
+                                person
+                            </span>
+                            soy cliente
+                        </a>
+                        <a href="https://micomercio.directo.com.ar/Login">
+                            <span class="material-symbols-rounded">
+                                store
+                            </span>
+                            soy comercio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-mobile">
+            <a href="#" class="menu-toggle" onclick="navMobile()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+        <div class="mobile-main" id="mobile-main">
+            <nav class="mobile-main-nav">
+                <ul class="mobile--nav" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="mobile--nav--link" id="clientes-tab" data-bs-toggle="tab"
+                            data-bs-target="#clientes-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+                            aria-selected="true">Clientes</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="mobile--nav--link active" id="comercios-tab" data-bs-toggle="tab"
+                            data-bs-target="#comercios-tab-pane" type="button" role="tab"
+                            aria-controls="profile-tab-pane" aria-selected="false">Comercios</button>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane show active" id="clientes-tab-pane" role="tabpanel"
+                        aria-labelledby="clientes-tab" tabindex="0">
+                        <div class="mobile--nav--content--group">
+                            <ul class="mobile--nav--content">
+                                <li class="mobile--nav--content--link"><a href="/" target="_self">Cuotas fijas</a></li>
+                                <li class="mobile--nav--content--link"><a href="/cuotas.html" target="_self">4 cuotas
+                                        sin interés</a></li>
+                                <li class="mobile--nav--content--link"><a href="/efectivo.html" target="_self">Efectivo
+                                        hoy</a></li>
+                                <li class="mobile--nav--content--link"><a href="/asistencias.html"
+                                        target="_self">Asistencias</a></li>
+                                <li class="mobile--nav--content--link"><a href="/quienes-somos.html"
+                                        target="_self">Quiénes somos</a></li>
+                            </ul>
+                            <div class="mobileMainButton">
+                                <div class="mobileNavAccess">
+                                    <a href="https://app.directo.com.ar/registro" class="button-md-icon" target="_self">
+                                        <span>Registrate</span>
+                                        <span class="button-icon-nav material-symbols-rounded">
+                                            chevron_right
+                                        </span>
+                                    </a>
+                                    <a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login"
+                                        class="button-md-line" target="_self">
+                                        <span>Iniciar Sesión</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="comercios-tab-pane" role="tabpanel" aria-labelledby="comercios-tab"
+                        tabindex="0">
+                        <div class="mobile--nav--content--group">
+                            <ul class="mobile--nav--content">
+                                <li class="mobile--nav--content--link"><a href="/vender-hoy.html" target="_self">Vender
+                                        hoy</a></li>
+                                <li class="mobile--nav--content--link"><a href="/comercio-quienes-somos.html"
+                                        target="_self">Quiénes somos</a></li>
+                            </ul>
+                            <div class="mobileMainButton">
+                                <div class="mobileNavAccess">
+                                    <a href="https://micomercio.directo.com.ar/Login" class="button-md-line"
+                                        target="_self">
+                                        <span>Iniciar Sesión</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
     <main>
         <section class="mLargeTop mMediumBottom">
             <!-- Swiper -->
@@ -247,7 +253,8 @@
                     </div>
                     <div class="swiper-slide swiper-slide-hero">
                         <img class="sliderMobile" src="/assets/images/hero-mobile--home--comprar-cuotas.webp" alt="img">
-                        <img class="sliderDesktop" src="/assets/images/hero--comercio--cuotas-sin-interes.webp" alt="img">
+                        <img class="sliderDesktop" src="/assets/images/hero--comercio--cuotas-sin-interes.webp"
+                            alt="img">
                     </div>
                     <div class="swiper-slide swiper-slide-hero">
                         <img class="sliderMobile" src="/assets/images/hero-mobile--home--comprar-cuotas.webp" alt="img">
@@ -291,49 +298,54 @@
             </div>
         </section>
 
-        <section class="container-100">
-            <div class="mSmallbottom">
-                <h3 class="txtCenter">Conocé cómo podés empezar a vender</h3>
-            </div>
-            <div class="container-ecommerce">
-                <div class="ecommerce-item flex flexColumn gExtraSmall txtCenter mMediumBottom">
-                    <div class="flex flexColumn gExtraSmall">
-                        <h4 class="">Ecommerce</h4>
-                        <p>Nos integramos para hacer más fácil y simple las opciones de pago. Desde cualquier plataforma
-                            que se encuentre tu negocio, con Directo tenés beneficios para tus ventas. Disponible en:
-                        </p>
-                        <div class="grid-ecommerce">
-                            <div class="flex-basis-quarter">
-                                <img src="/assets/images/plataforma--vtex-logo@2x.jpg" alt="">
-                            </div>
-                            <div class="flex-basis-quarter">
-                                <img src="/assets/images/plataforma--magento-logo@2x.jpg" alt="">
-                            </div>
-                            <div class="flex-basis-quarter">
-                                <img src="/assets/images/plataforma--woocommerce-logo@2x.jpg" alt="">
-                            </div>
-                            <div class="flex-basis-quarter">
-                                <img src="/assets/images/plataforma--prestashop-logo@2x.webp" alt="">
+        <section class="bg-gris-claro">
+            <div class="container-100">
+                <div class="mSmallbottom">
+                    <h3 class="txtCenter">Conocé cómo podés empezar a vender</h3>
+                </div>
+                <div class="container-ecommerce">
+                    <div class="ecommerce-item flex flexColumn gExtraSmall txtCenter mMediumBottom">
+                        <div class="flex flexColumn gExtraSmall">
+                            <h4 class="">Ecommerce</h4>
+                            <p>Nos integramos para hacer más fácil y simple las opciones de pago. Desde cualquier
+                                plataforma
+                                que se encuentre tu negocio, con Directo tenés beneficios para tus ventas. Disponible
+                                en:
+                            </p>
+                            <div class="grid-ecommerce">
+                                <div class="flex-basis-quarter">
+                                    <img src="/assets/images/plataforma--vtex-logo@2x.jpg" alt="">
+                                </div>
+                                <div class="flex-basis-quarter">
+                                    <img src="/assets/images/plataforma--magento-logo@2x.jpg" alt="">
+                                </div>
+                                <div class="flex-basis-quarter">
+                                    <img src="/assets/images/plataforma--woocommerce-logo@2x.jpg" alt="">
+                                </div>
+                                <div class="flex-basis-quarter">
+                                    <img src="/assets/images/plataforma--prestashop-logo@2x.webp" alt="">
+                                </div>
                             </div>
                         </div>
+                        <div>
+                            <a href="#comercios-adheridos" class="button button-l">
+                                <span>Conocé los comercios adheridos</span>
+                            </a>
+                        </div>
                     </div>
-                    <div>
-                        <a href="#comercios-adheridos" class="button button-l">
-                            <span>Conocé los comercios adheridos</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="ecommerce-item flex flexColumn gExtraSmall txtCenter">
-                    <div class="flex flexColumn gExtraSmall">
-                        <h4>Ventas presenciales</h4>
-                        <p>Ofrecele a tus clientes una experiencia de pago rápida, simple y digital. ¡Vendé en tu tienda
-                            física con nuestro medio de pago en cuotas, y hacé crecer tu negocio!
-                        </p>
-                    </div>
-                    <div>
-                        <a href="#comercios-adheridos" class="button button-l">
-                            <span>Conocé los comercios adheridos</span>
-                        </a>
+                    <div class="ecommerce-item flex flexColumn gExtraSmall txtCenter">
+                        <div class="flex flexColumn gExtraSmall">
+                            <h4>Ventas presenciales</h4>
+                            <p>Ofrecele a tus clientes una experiencia de pago rápida, simple y digital. ¡Vendé en tu
+                                tienda
+                                física con nuestro medio de pago en cuotas, y hacé crecer tu negocio!
+                            </p>
+                        </div>
+                        <div>
+                            <a href="#comercios-adheridos" class="button button-l">
+                                <span>Conocé los comercios adheridos</span>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -454,105 +466,105 @@
             </div>
         </section>
         <footer>
-			<div class="container-footer">
-				<div class="footer-nav">
-					<div class="footer-social">
-						<div>
-							<h6>Encontranos en nuestras redes sociales</h6>
-						</div>
-						<div class="footer-social_icons">
-							<a href="https://www.facebook.com/directo.ar">
-								<img src="/assets/svg/facebook.svg" alt="">
-							</a>
-							<a href="https://www.instagram.com/directo.ar/">
-								<img src="/assets/svg/instagram.svg" alt="">
-							</a>
-							<a href="https://www.linkedin.com/company/directo-argentina/">
-								<img src="/assets/svg/linkedin.svg" alt="">
-							</a>
-						</div>
-					</div>
-					<div class="footer-nav_menu">
-						<div class="footer-nav_group">
-							<h6>Clientes</h6>
-							<a href="/" class="azul semiLight">Cuotas</a>
-							<a href="/efectivo.html" class="azul semiLight">Efectivo</a>
-							<a href="/asistencias.html" class="azul semiLight">Asistencias</a>
-						</div>
-						<div class="footer-nav_group">
-							<h6>Comercios</h6>
-							<div class="footer-nav_item">
-								<a href="/vender-hoy.html" class="azul semiLight">Vender hoy</a>
-							</div>
-						</div>
-						<div class="footer-nav_group">
-							<h6>Contacto</h6>
-							<p>0800 345 6790</p>
-							<p>Lunes a viernes de 8 a 20 hs.</p>
-							<a href="mailto:clientes@directo.com.ar">clientes@directo.com.ar</a>
-							<a href="/contacto.html">Formulario de contacto</a>
-						</div>
-						<div class="footer-nav_group">
-							<h6>Compañía</h6>
-							<a href="/quienes-somos.html">Quiénes somos</a>
-							<a href="https://www.grupost.com.ar/">Grupo ST</a>
-							<a href="/assets/pdf/codigo-de-gobierno-societario.pdf">Código de Gobierno
-								Societario</a>
-							<a href="/assets/pdf/codigo-de-etica-y-conducta.pdf">Código de Ética y Conducta</a>
-						</div>
-						<div class="footerBotones">
-							<div class="footer-nav_group">
-								<div>
-									<a href="/boton-de-arrepentimiento.html" class="button button-l" target="_self">
-										<span>Botón de arrepentimiento</span>
-									</a>
-								</div>
-								<div>
-									<a href="/boton-de-baja.html" class="button button-l" target="_self">
-										<span>Botón de baja</span>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="container-footer-legal">
-				<div class="footer-legal">
-					<div class="footer-legal_item ">
-						<a href="/terminos-y-condiciones.html">Términos y condiciones</a>
-						<a href="/politicas-de-privacidad.html">Politicas de privacidad</a>
-						<a href="/informacion-al-usuario-financiero.html">Información al usuario financiero</a>
-						<a href="/informacion-al-usuario-financiero.html">Comisiones, cargos y tasas</a>
-						<a href="/informacion-al-usuario-financiero.html">Contratos de adhesión, Ley 24.240</a>
-						<a href="/defensa-del-consumidor.html">Defensa del consumidor</a>
-						<a href="/proteccion-de-datos-personales.html">Protección de datos personales</a>
-						<a href="/modos-de-rescision.html">Modos de rescisión</a>
-					</div>
-					<div class="footer-legal_logos">
-						<a href="http://www.bcra.gob.ar/BCRAyVos/Usuarios_Financieros.asp">
-							<img src="/assets/images/banner-bcra.webp" alt="Banco Central de la Republica Argentina">
-						</a>
-						<a href="https://www.argentina.gob.ar/interior/renaper/sid-sistema-de-identidad-digital">
-							<img src="/assets/images/sid.png" alt="Sistema de Identidad Digital">
-						</a>
-						<a href="https://www.argentina.gob.ar/cnv">
-							<img src="/assets/images/cnv_logo.png" alt="Comision Nacional de Valores">
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="container-footer-company">
-				<div class="main-container footer-company_item">
-					<a href="https://servicios1.afip.gov.ar/clavefiscal/qr/response.aspx?qr=KzwuOJhGPsmIhmBT8kDbVQ,,"
-						class="footer-company_item-afip">
-						<img src="/assets/images/data-fiscal.webp" alt="Información Fiscal">
-						<p>Crédito Directo S.A. – CUIT N° 30-71210113-6 – Perón 646, Piso 4°, Ciudad Autónoma de
-							Buenos Aires.</p>
-					</a>
-				</div>
-			</div>
-		</footer>
+            <div class="container-footer">
+                <div class="footer-nav">
+                    <div class="footer-social">
+                        <div>
+                            <h6>Encontranos en nuestras redes sociales</h6>
+                        </div>
+                        <div class="footer-social_icons">
+                            <a href="https://www.facebook.com/directo.ar">
+                                <img src="/assets/svg/facebook.svg" alt="">
+                            </a>
+                            <a href="https://www.instagram.com/directo.ar/">
+                                <img src="/assets/svg/instagram.svg" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com/company/directo-argentina/">
+                                <img src="/assets/svg/linkedin.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-nav_menu">
+                        <div class="footer-nav_group">
+                            <h6>Clientes</h6>
+                            <a href="/" class="azul semiLight">Cuotas</a>
+                            <a href="/efectivo.html" class="azul semiLight">Efectivo</a>
+                            <a href="/asistencias.html" class="azul semiLight">Asistencias</a>
+                        </div>
+                        <div class="footer-nav_group">
+                            <h6>Comercios</h6>
+                            <div class="footer-nav_item">
+                                <a href="/vender-hoy.html" class="azul semiLight">Vender hoy</a>
+                            </div>
+                        </div>
+                        <div class="footer-nav_group">
+                            <h6>Contacto</h6>
+                            <p>0800 345 6790</p>
+                            <p>Lunes a viernes de 8 a 20 hs.</p>
+                            <a href="mailto:clientes@directo.com.ar">clientes@directo.com.ar</a>
+                            <a href="/contacto.html">Formulario de contacto</a>
+                        </div>
+                        <div class="footer-nav_group">
+                            <h6>Compañía</h6>
+                            <a href="/quienes-somos.html">Quiénes somos</a>
+                            <a href="https://www.grupost.com.ar/">Grupo ST</a>
+                            <a href="/assets/pdf/codigo-de-gobierno-societario.pdf">Código de Gobierno
+                                Societario</a>
+                            <a href="/assets/pdf/codigo-de-etica-y-conducta.pdf">Código de Ética y Conducta</a>
+                        </div>
+                        <div class="footerBotones">
+                            <div class="footer-nav_group">
+                                <div>
+                                    <a href="/boton-de-arrepentimiento.html" class="button button-l" target="_self">
+                                        <span>Botón de arrepentimiento</span>
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="/boton-de-baja.html" class="button button-l" target="_self">
+                                        <span>Botón de baja</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-footer-legal">
+                <div class="footer-legal">
+                    <div class="footer-legal_item ">
+                        <a href="/terminos-y-condiciones.html">Términos y condiciones</a>
+                        <a href="/politicas-de-privacidad.html">Politicas de privacidad</a>
+                        <a href="/informacion-al-usuario-financiero.html">Información al usuario financiero</a>
+                        <a href="/informacion-al-usuario-financiero.html">Comisiones, cargos y tasas</a>
+                        <a href="/informacion-al-usuario-financiero.html">Contratos de adhesión, Ley 24.240</a>
+                        <a href="/defensa-del-consumidor.html">Defensa del consumidor</a>
+                        <a href="/proteccion-de-datos-personales.html">Protección de datos personales</a>
+                        <a href="/modos-de-rescision.html">Modos de rescisión</a>
+                    </div>
+                    <div class="footer-legal_logos">
+                        <a href="http://www.bcra.gob.ar/BCRAyVos/Usuarios_Financieros.asp">
+                            <img src="/assets/images/banner-bcra.webp" alt="Banco Central de la Republica Argentina">
+                        </a>
+                        <a href="https://www.argentina.gob.ar/interior/renaper/sid-sistema-de-identidad-digital">
+                            <img src="/assets/images/sid.png" alt="Sistema de Identidad Digital">
+                        </a>
+                        <a href="https://www.argentina.gob.ar/cnv">
+                            <img src="/assets/images/cnv_logo.png" alt="Comision Nacional de Valores">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-footer-company">
+                <div class="main-container footer-company_item">
+                    <a href="https://servicios1.afip.gov.ar/clavefiscal/qr/response.aspx?qr=KzwuOJhGPsmIhmBT8kDbVQ,,"
+                        class="footer-company_item-afip">
+                        <img src="/assets/images/data-fiscal.webp" alt="Información Fiscal">
+                        <p>Crédito Directo S.A. – CUIT N° 30-71210113-6 – Perón 646, Piso 4°, Ciudad Autónoma de
+                            Buenos Aires.</p>
+                    </a>
+                </div>
+            </div>
+        </footer>
         <!-- Google TagManager (non-script) -->
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M3X3H89" height="0" width="0"
                 style="display:none;visibility:hidden"></iframe></noscript>
@@ -561,24 +573,24 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!-- Initialize Swiper -->
     <script>
-		var swiper = new Swiper(".HeroSwiper", {
-			slidesPerView: "auto",
-			centeredSlides: true,
-			spaceBetween: 32,
-			loop: true,
-			pagination: {
-				el: ".swiper-pagination",
-				clickable: true,
-			},
-			navigation: {
-				nextEl: ".swiper-button-next",
-				prevEl: ".swiper-button-prev",
-			},
-			autoplay: {
-				delay: 2500,
-				disableOnInteraction: false,
-			},
-		});
-	</script>
+        var swiper = new Swiper(".HeroSwiper", {
+            slidesPerView: "auto",
+            centeredSlides: true,
+            spaceBetween: 32,
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+    </script>
     <!-- scripts -->
 </body>
