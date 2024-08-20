@@ -334,7 +334,7 @@ button {
 	background-color: var(--blanco);
 }
 
-.mobile--nav--content {
+.mobile--nav--content li {
 	margin-bottom: 24px;
 	list-style: none;
 }
