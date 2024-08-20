@@ -313,6 +313,7 @@ nav span {
 	margin-bottom: 0;
 	list-style: none;
 	gap: 24px;
+	margin-bottom: 36px;
 }
 
 .mobile--nav--item {}
@@ -322,11 +323,12 @@ nav span {
 	font-size: var(--pingpong);
 	color: var(--azul);
 	text-decoration: none;
+	border-bottom: 2px solid var(--gris);
+    padding-bottom: 6px;
 }
 
-.mobile--nav--link:active {
-	border-bottom: 2px solid var(--azul);
-	padding-bottom: 6px;
+.mobile--nav--link.active {
+    border-bottom: 2px solid var(--violeta) !important;
 }
 
 button {
