@@ -331,6 +331,11 @@ nav span {
     padding-bottom: 6px;
 }
 
+button {
+    border-radius: 0px;
+    background-color: var(--blanco);
+}
+
 .mobile--nav--secondary {
 	display: flex;
 	flex-direction: row;
