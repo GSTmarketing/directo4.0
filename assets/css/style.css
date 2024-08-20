@@ -324,11 +324,11 @@ nav span {
 	color: var(--azul);
 	text-decoration: none;
 	border-bottom: 2px solid var(--gris);
-    padding-bottom: 6px;
+	padding-bottom: 6px;
 }
 
 .mobile--nav--link.active {
-    border-bottom: 2px solid var(--violeta) !important;
+	border-bottom: 2px solid var(--violeta) !important;
 }
 
 .nav-item button {
@@ -1665,6 +1665,33 @@ button {
 	font-family: var(--secundaria);
 	font-size: var(--pingpong);
 	line-height: 140%;
+}
+
+.container-ecommerce {
+	display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.ecommerce-item {
+    background-color: var(--gris-claro);
+    padding: 24px;
+    border-radius: 12px;
+}
+
+.grid-ecommerce {
+	display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 24px;
+    margin: 24px 0;
+}
+
+.ecommerce-item h4 {
+	font-family: Directo;
+	font-size: var(--golf);
+	line-height: 150%;
+	color: var(--violeta);
 }
 
 @media (min-width: 768px) {}
@@ -3854,4 +3881,10 @@ button {
 		background-color: var(--gris-claro);
 	}
 
+	.grid-ecommerce {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		gap: 120px;
+		padding: 24px;
+	}
 }
