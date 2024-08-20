@@ -189,32 +189,46 @@
 		<div class="mobile-main" id="mobile-main">
 			<nav class="mobile-main-nav">
 				<div class="mobile--nav--secondary">
-					<div class="mobile--nav--secondary-link mobile--nav--secondary-link--active">
-						<a href="/">Clientes</a>
-					</div>
-					<div class="mobile--nav--secondary-link mobile--nav--secondary-link--inactive">
-						<a href="/vender-hoy.html">Comercios</a>
-					</div>
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item" role="presentation">
+							<button class="nav-link active" id="clientes-tab" data-bs-toggle="tab"
+								data-bs-target="#clientes-tab-pane" type="button" role="tab"
+								aria-controls="home-tab-pane" aria-selected="true">Clientes</button>
+						</li>
+						<li class="nav-item" role="presentation">
+							<button class="nav-link" id="comercios-tab" data-bs-toggle="tab"
+								data-bs-target="#comercios-tab-pane" type="button" role="tab"
+								aria-controls="profile-tab-pane" aria-selected="false">Comercios</button>
+						</li>
+					</ul>
 				</div>
-				<ul>
-					<li class="mobileNav"><a href="/" target="_self">Compra en cuotas</a></li>
-					<li class="mobileNav"><a href="/efectivo.html" target="_self">Efectivo hoy</a></li>
-					<li class="mobileNav"><a href="/asistencias.html" target="_self">Asistencias</a></li>
-					<li class="mobileNav"><a href="/quienes-somos.html" target="_self">Quiénes somos</a></li>
-				</ul>
-				<div class="mobileMainButton">
-					<div class="mobileNavAccess">
-						<a href="https://app.directo.com.ar/registro" class="button-md-icon" target="_self">
-							<span>Registrate</span>
-							<span class="button-icon-nav material-symbols-rounded">
-								chevron_right
-							</span>
-						</a>
-						<a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login"
-							class="button-md-line" target="_self">
-							<span>Iniciar Sesión</span>
-						</a>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="clientes-tab-pane" role="tabpanel"
+						aria-labelledby="clientes-tab" tabindex="0">
+						<ul>
+							<li class="mobileNav"><a href="/" target="_self">Compra en cuotas</a></li>
+							<li class="mobileNav"><a href="/efectivo.html" target="_self">Efectivo hoy</a></li>
+							<li class="mobileNav"><a href="/asistencias.html" target="_self">Asistencias</a></li>
+							<li class="mobileNav"><a href="/quienes-somos.html" target="_self">Quiénes somos</a></li>
+						</ul>
+						<div class="mobileMainButton">
+							<div class="mobileNavAccess">
+								<a href="https://app.directo.com.ar/registro" class="button-md-icon" target="_self">
+									<span>Registrate</span>
+									<span class="button-icon-nav material-symbols-rounded">
+										chevron_right
+									</span>
+								</a>
+								<a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login"
+									class="button-md-line" target="_self">
+									<span>Iniciar Sesión</span>
+								</a>
+							</div>
+						</div>
+
 					</div>
+					<div class="tab-pane fade" id="comercios-tab-pane" role="tabpanel" aria-labelledby="comercios-tab"
+						tabindex="0">...</div>
 				</div>
 			</nav>
 		</div>
