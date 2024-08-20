@@ -326,8 +326,9 @@ nav span {
 	text-decoration: none;
 }
 
-.mobile--nav--link active {
+.mobile--nav--link:active {
 	border-bottom: 2px solid var(--azul);
+    padding-bottom: 6px;
 }
 
 .mobile--nav--secondary {
