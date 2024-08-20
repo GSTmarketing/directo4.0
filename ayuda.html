@@ -105,123 +105,157 @@
 
 <body>
     <header class="site-header">
-        <div class="nav--secondary-border">
-            <div class="nav--secondary container-nav">
-                <div class="nav--secondary-paravos">
-                    <a class="nav--secondary-link nav--secondary-link--active" href="/">Clientes</a>
-                </div>
-                <div class="nav--secondary-comercios">
-                    <a class="nav--secondary-link nav--secondary-link--inactive" href="/vender-hoy.html">Comercios</a>
-                </div>
-            </div>
-        </div>
-        <div class="grid-header container-nav">
-            <div class="logo--nav">
-                <div class="logo">
-                    <a href="/">
-                        <img src="/assets/svg/directo__logo-sin-claim.svg" alt="Logo de directo"
-                            class="logo-directo__header">
-                    </a>
-                </div>
-                <nav class="navegacion">
-                    <ul>
-                        <li>
-                            <a href="/">
-                                <span>Comprar en cuotas</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/efectivo.html">
-                                <span>Efectivo hoy</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/asistencias.html">
-                                <span>Asistencias</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/quienes-somos.html">
-                                <span>Quiénes somos</span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="iniciar">
-                <div>
-                    <a href="https://app.directo.com.ar/registro" class="button-md-icon" target="_self">
-                        <span>Registrate</span>
-                        <span class="button-icon-nav material-symbols-rounded">
-                            chevron_right
-                        </span>
-                    </a>
-                </div>
-                <div class="navDropdown">
-                    <button onclick="myFunction()" class="button-md-icon-line">
-                        iniciar sesión
-                        <span class="button-icon-nav--azul material-symbols-rounded">
-                            expand_more
-                        </span>
-                    </button>
-                    <div id="displayDropdown" class="navDropdownContent">
-                        <a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login">
-                            <span class="material-symbols-rounded">
-                                person
-                            </span>
-                            soy cliente
-                        </a>
-                        <a href="https://micomercio.directo.com.ar/Login">
-                            <span class="material-symbols-rounded">
-                                store
-                            </span>
-                            soy comercio
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-mobile">
-            <a href="#" class="menu-toggle" onclick="navMobile()">
-                <span></span>
-                <span></span>
-                <span></span>
-            </a>
-        </div>
-        </div>
-        <div class="mobile-main" id="mobile-main">
-            <nav class="mobile-main-nav">
-                <div class="mobile--nav--secondary">
-                    <div class="mobile--nav--secondary-link mobile--nav--secondary-link--active">
-                        <a href="/">Clientes</a>
-                    </div>
-                    <div class="mobile--nav--secondary-link mobile--nav--secondary-link--inactive">
-                        <a href="/vender-hoy.html">Comercios</a>
-                    </div>
-                </div>
-                <ul>
-                    <li class="mobileNav"><a href="/" target="_self">Compra en cuotas</a></li>
-                    <li class="mobileNav"><a href="/efectivo.html" target="_self">Efectivo hoy</a></li>
-                    <li class="mobileNav"><a href="/asistencias.html" target="_self">Asistencias</a></li>
-                    <li class="mobileNav"><a href="/quienes-somos.html" target="_self">Quiénes somos</a></li>
-                </ul>
-                <div class="mobileMainButton">
-                    <div class="mobileNavAccess">
-                        <a href="https://app.directo.com.ar/registro" class="button-md-icon" target="_self">
-                            <span>Registrate</span>
-                            <span class="button-icon-nav material-symbols-rounded">
-                                chevron_right
-                            </span>
-                        </a>
-                        <a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login"
-                            class="button-md-line" target="_self">
-                            <span>Iniciar Sesión</span>
-                        </a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
+		<div class="nav--secondary-border">
+			<div class="nav--secondary container-nav">
+				<div class="nav--secondary-paravos">
+					<a class="nav--secondary-link nav--secondary-link--active" href="/">Clientes</a>
+				</div>
+				<div class="nav--secondary-comercios">
+					<a class="nav--secondary-link nav--secondary-link--inactive" href="/vender-hoy.html">Comercios</a>
+				</div>
+			</div>
+		</div>
+		<div class="grid-header container-nav">
+			<div class="logo--nav">
+				<div class="logo">
+					<a href="/">
+						<img src="/assets/svg/directo__logo-sin-claim.svg" alt="Logo de directo"
+							class="logo-directo__header">
+					</a>
+				</div>
+				<nav class="navegacion">
+					<ul>
+						<li>
+							<a href="/">
+								<span>Cuotas fijas</span>
+							</a>
+						</li>
+						<li>
+							<a href="/cuotas.html">
+								<span>4 cuotas sin interés</span>
+							</a>
+						</li>
+						<li>
+							<a href="/efectivo.html">
+								<span>Efectivo hoy</span>
+							</a>
+						</li>
+						<li>
+							<a href="/asistencias.html">
+								<span>Asistencias</span>
+							</a>
+						</li>
+						<li>
+							<a href="/quienes-somos.html">
+								<span>Quiénes somos</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="iniciar">
+				<div>
+					<a href="https://app.directo.com.ar/registro" class="button-md-icon" target="_self">
+						<span>Registrate</span>
+						<span class="button-icon-nav material-symbols-rounded">
+							chevron_right
+						</span>
+					</a>
+				</div>
+				<div class="navDropdown">
+					<button onclick="myFunction()" class="button-md-icon-line">
+						iniciar sesión
+						<span class="button-icon-nav--azul material-symbols-rounded">
+							expand_more
+						</span>
+					</button>
+					<div id="displayDropdown" class="navDropdownContent">
+						<a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login">
+							<span class="material-symbols-rounded">
+								person
+							</span>
+							soy cliente
+						</a>
+						<a href="https://micomercio.directo.com.ar/Login">
+							<span class="material-symbols-rounded">
+								store
+							</span>
+							soy comercio
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="header-mobile">
+			<a href="#" class="menu-toggle" onclick="navMobile()">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+		</div>
+		</div>
+		<div class="mobile-main" id="mobile-main">
+			<nav class="mobile-main-nav">
+				<ul class="mobile--nav" id="myTab" role="tablist">
+					<li class="nav-item" role="presentation">
+						<button class="mobile--nav--link active" id="clientes-tab" data-bs-toggle="tab"
+							data-bs-target="#clientes-tab-pane" type="button" role="tab" aria-controls="home-tab-pane"
+							aria-selected="true">Clientes</button>
+					</li>
+					<li class="nav-item" role="presentation">
+						<button class="mobile--nav--link" id="comercios-tab" data-bs-toggle="tab"
+							data-bs-target="#comercios-tab-pane" type="button" role="tab"
+							aria-controls="profile-tab-pane" aria-selected="false">Comercios</button>
+					</li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane show active" id="clientes-tab-pane" role="tabpanel"
+						aria-labelledby="clientes-tab" tabindex="0">
+						<div class="mobile--nav--content--group">
+							<ul class="mobile--nav--content">
+								<li class="mobile--nav--content--link"><a href="/" target="_self">Cuotas fijas</a></li>
+								<li class="mobile--nav--content--link"><a href="/cuotas.html" target="_self">4 cuotas sin interés</a></li>
+								<li class="mobile--nav--content--link"><a href="/efectivo.html" target="_self">Efectivo hoy</a></li>
+								<li class="mobile--nav--content--link"><a href="/asistencias.html" target="_self">Asistencias</a></li>
+								<li class="mobile--nav--content--link"><a href="/quienes-somos.html" target="_self">Quiénes somos</a></li>
+							</ul>
+							<div class="mobileMainButton">
+								<div class="mobileNavAccess">
+									<a href="https://app.directo.com.ar/registro" class="button-md-icon" target="_self">
+										<span>Registrate</span>
+										<span class="button-icon-nav material-symbols-rounded">
+											chevron_right
+										</span>
+									</a>
+									<a href="https://app.directo.com.ar/iniciar-sesion?utm_source=web_directo&utm_medium=Login"
+										class="button-md-line" target="_self">
+										<span>Iniciar Sesión</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane fade" id="comercios-tab-pane" role="tabpanel" aria-labelledby="comercios-tab"
+						tabindex="0">
+						<div class="mobile--nav--content--group">
+							<ul class="mobile--nav--content">
+								<li class="mobile--nav--content--link"><a href="/vender-hoy.html" target="_self">Vender hoy</a></li>
+								<li class="mobile--nav--content--link"><a href="/comercio-quienes-somos.html" target="_self">Quiénes somos</a></li>
+							</ul>
+							<div class="mobileMainButton">
+								<div class="mobileNavAccess">
+									<a href="https://micomercio.directo.com.ar/Login"
+										class="button-md-line" target="_self">
+										<span>Iniciar Sesión</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</header>
     <main>
         <section class="bgVioletaLight">
             <div class="container-ayuda_hero">
