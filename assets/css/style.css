@@ -1593,17 +1593,18 @@ button {
 
 .container-asistencias {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 48px;
+	grid-template-columns: 1fr;
+	gap: 24px;
 }
 
 .asistencias-item {
 	padding: 16px;
-	background-color: #fff;
+	background-color: var(--blanco);
 	border-radius: 12px;
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
+	gap: 24px;
+	border: 1px solid var(--gris);
 }
 
 .asistencias-item img {
@@ -2399,13 +2400,13 @@ button {
 		column-gap: 36px;
 	}
 
-	.modulePagoFeaturesItem {
-		background-color: var(--violetaLight);
-		padding: 48px;
-		border-radius: 24px;
+	.modulo-centro {
 		display: flex;
 		flex-direction: column;
 		gap: 24px;
+		width: 50%;
+		margin: 0 auto;
+		align-items: center;
 	}
 
 	.modulePagoFeaturesItemOutline {
@@ -2620,12 +2621,12 @@ button {
 
 	.moduleListLegal {
 		display: flex;
-        flex-direction: row;
-        gap: 8px;
-        align-items: center;
-        font-size: var(--marble);
-        font-family: var(--secundaria);
-        color: var(--gris-oscuro);
+		flex-direction: row;
+		gap: 8px;
+		align-items: center;
+		font-size: var(--marble);
+		font-family: var(--secundaria);
+		color: var(--gris-oscuro);
 	}
 
 	.moduleListLegal span {
@@ -3749,6 +3750,50 @@ button {
 
 	.button--mobile--efectivo {
 		display: none;
+	}
+
+	.container-asistencias {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 48px;
+	}
+
+	.asistencias-item {
+		padding: 16px;
+		background-color: var(--blanco);
+		border-radius: 12px;
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		border: 1px solid var(--gris);
+	}
+
+	.asistencias-item img {
+		border-radius: 8px;
+		height: 160px;
+		object-fit: cover;
+	}
+
+	.asistencias-item h5 {
+		font-family: 'Directo';
+	}
+
+	.asistencias-item li {
+		list-style: inside disc;
+		margin-bottom: 8px;
+		vertical-align: middle;
+		font-family: var(--secundaria);
+		font-size: var(--pingpong);
+		line-height: 140%;
+	}
+
+	.modulo-centro {
+		display: flex;
+		flex-direction: column;
+		gap: 24px;
+		width: 50%;
+		margin: 0 auto;
+		align-items: center;
 	}
 
 }
