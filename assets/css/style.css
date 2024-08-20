@@ -1694,6 +1694,16 @@ button {
 	color: var(--violeta);
 }
 
+.container-50_side a {
+    margin-top: 24px;
+}
+
+.container-50_side {
+	flex: 1 1 50%;
+}
+
+
+
 @media (min-width: 768px) {}
 
 @media (min-width: 1024px) {
@@ -3886,5 +3896,14 @@ button {
 		grid-template-columns: repeat(4, 1fr);
 		gap: 120px;
 		padding: 24px;
+	}
+
+	.ecommerce-item {
+		padding: 48px;
+	}
+
+	.ecommerce-item p {
+		width: 800px;
+		margin: 0 auto;
 	}
 }
