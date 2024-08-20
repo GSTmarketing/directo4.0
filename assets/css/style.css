@@ -332,7 +332,7 @@ nav span {
 }
 
 button {
-	border-radius: 0px;
+	border-radius: 0px !important;
 	background-color: var(--blanco);
 }
 
