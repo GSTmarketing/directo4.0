@@ -308,16 +308,14 @@ nav span {
 
 .mobile--nav {
 	display: flex;
-    flex-wrap: wrap;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
+	flex-wrap: wrap;
+	padding-left: 0;
+	margin-bottom: 0;
+	list-style: none;
 	gap: 24px;
 }
 
-.mobile--nav--item {
-	
-}
+.mobile--nav--item {}
 
 .mobile--nav--link {
 	font-family: DirectoSemiLight;
@@ -328,12 +326,30 @@ nav span {
 
 .mobile--nav--link:active {
 	border-bottom: 2px solid var(--azul);
-    padding-bottom: 6px;
+	padding-bottom: 6px;
 }
 
 button {
-    border-radius: 0px;
-    background-color: var(--blanco);
+	border-radius: 0px;
+	background-color: var(--blanco);
+}
+
+.mobile--nav--content {
+	margin-bottom: 24px;
+	list-style: none;
+}
+
+.mobile--nav--content--link a {
+	font-size: var(--golf);
+	color: var(--azul);
+	font-family: 'DirectoLight';
+}
+
+.tab-pane {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 75vh;
 }
 
 .mobile--nav--secondary {
@@ -3832,8 +3848,8 @@ button {
 
 	.slider-shadow {
 		padding-bottom: 12px;
-        box-shadow: inset 0px -6px 12px 5px rgb(0 0 0 / 5%);
-        background-color: var(--gris-claro);
+		box-shadow: inset 0px -6px 12px 5px rgb(0 0 0 / 5%);
+		background-color: var(--gris-claro);
 	}
 
 }
