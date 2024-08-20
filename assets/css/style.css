@@ -331,7 +331,7 @@ nav span {
     border-bottom: 2px solid var(--violeta) !important;
 }
 
-button {
+.nav-item button {
 	border-radius: 0px !important;
 	background-color: var(--blanco);
 }
