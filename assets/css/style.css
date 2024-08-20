@@ -306,9 +306,28 @@ nav span {
 	width: -webkit-fill-available;
 }
 
-.mobile-main-nav ul {
+.mobile--nav {
 	display: flex;
-	flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+	gap: 24px;
+}
+
+.mobile--nav--item {
+	
+}
+
+.mobile--nav--link {
+	font-family: DirectoSemiLight;
+	font-size: var(--pingpong);
+	color: var(--azul);
+	text-decoration: none;
+}
+
+.mobile--nav--link active {
+	border-bottom: 2px solid var(--azul);
 }
 
 .mobile--nav--secondary {
@@ -321,13 +340,6 @@ nav span {
 
 .mobile--nav--secondary-link {
 	padding: 0 24px 6px 24px;
-}
-
-.mobile--nav--secondary-link a {
-	font-family: DirectoSemiLight;
-	font-size: var(--pingpong);
-	color: var(--azul);
-	text-decoration: none;
 }
 
 .mobile--nav--secondary-link--active {
