@@ -1002,9 +1002,12 @@ p.legalText,
 	display: none;
 }
 
-.container-hero h1,
-h4 {
-	font-size: var(--marble);
+.container-hero h1 {
+	font-size: var(--pool);
+}
+
+.container-hero h4 {
+	font-size: var(--pingpong);
 }
 
 .material-symbols-rounded {
@@ -1670,22 +1673,22 @@ button {
 
 .container-ecommerce {
 	display: flex;
-    flex-direction: column;
-    gap: 80px;
+	flex-direction: column;
+	gap: 80px;
 }
 
 .ecommerce-item {
-    background-color: var(--blanco);
-    padding: 24px;
-    border-radius: 12px;
+	background-color: var(--blanco);
+	padding: 24px;
+	border-radius: 12px;
 }
 
 .grid-ecommerce {
 	display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 24px;
-    padding: 24px;
-    margin: 24px 0;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 24px;
+	padding: 24px;
+	margin: 24px 0;
 }
 
 .ecommerce-item h4 {
@@ -1696,7 +1699,7 @@ button {
 }
 
 .container-50_side a {
-    margin-top: 24px;
+	margin-top: 24px;
 }
 
 .container-50_side {
@@ -1714,6 +1717,14 @@ button {
 	gap: 16px;
 }
 
+.hero--text {
+	display: flex;
+	justify-content: center;
+	gap: 24px;
+	padding: 0 24px;
+	margin: 0 auto;
+	height: 100%;
+}
 
 @media (min-width: 768px) {}
 
@@ -3905,5 +3916,23 @@ button {
 	.ecommerce-item p {
 		width: 800px;
 		margin: 0 auto;
+	}
+
+	.hero--text {
+		display: flex;
+		justify-content: center;
+		gap: 24px;
+		padding: 0 24px;
+		margin: 0 auto;
+		height: 100%;
+	}
+
+	.container-hero h1 {
+		font-size: var(--handball);
+		width: 50%;
+	}
+
+	.container-hero h4 {
+		font-size: var(--golf);
 	}
 }
