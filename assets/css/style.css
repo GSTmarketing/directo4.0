@@ -3655,7 +3655,7 @@ button {
 	}
 
 	.menu-desktop_ayuda a {
-		text-decoration: underline;
+		background-color: var(--blanco);
 	}
 
 	.categoria--titulo {
