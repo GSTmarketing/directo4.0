@@ -3654,8 +3654,8 @@ button {
 		background-color: var(--blanco);
 	}
 
-	.menu-desktop_ayuda a {
-		background-color: var(--blanco);
+	.menu-desktop_ayuda h6:hover {
+		background-color: var(--violetaLight);
 	}
 
 	.categoria--titulo {
