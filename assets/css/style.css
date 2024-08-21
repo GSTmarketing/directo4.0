@@ -3649,7 +3649,7 @@ button {
 		text-decoration: underline;
 	}
 
-	.ayuda-pregunta-titulo h5 {
+	.ayuda-pregunta-titulo {
 		font-size: var(--golf);
 		margin-bottom: 24px;
 	}
