@@ -317,8 +317,6 @@ nav span {
 	margin-bottom: 36px;
 }
 
-.mobile--nav--item {}
-
 .mobile--nav--link {
 	font-family: DirectoSemiLight;
 	font-size: var(--pingpong);
