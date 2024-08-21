@@ -3641,8 +3641,17 @@ button {
 	}
 
 	.menu-desktop_ayuda h6 {
-		font-size: var(--squash);
-		padding-bottom: 24px;
+		font-size: var(--pingpong);
+        border: 1px solid var(--gris);
+        border-radius: 8px;
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        padding: 12px;
+        width: 140px;
+        background-color: var(--blanco);
 	}
 
 	.menu-desktop_ayuda a {
