@@ -1503,8 +1503,10 @@ button {
 }
 
 .ayuda-respuesta {
-	border-bottom: 1px solid var(--gris);
-	padding: 24px 0;
+	padding: 24px;
+    background-color: var(--violetaLight);
+    border-radius: 12px;
+    margin-bottom: 12px;
 }
 
 .ayuda-respuesta p {
@@ -1523,6 +1525,7 @@ button {
 
 .ayuda-respuesta h5 {
 	font-family: DirectoLight;
+	font-size: var(--pingpong);
 	color: var(--negro);
 	text-decoration: none;
 }
@@ -3625,6 +3628,8 @@ button {
 		column-gap: 48px;
 		width: 1120px;
 		margin: 80px auto 0px;
+		margin: 120px auto 0px;
+		padding: 120px 0px;
 	}
 
 	.container-ayuda {
@@ -3642,6 +3647,11 @@ button {
 
 	.menu-desktop_ayuda a {
 		text-decoration: underline;
+	}
+
+	.container-ayuda_categoria h5 {
+		font-size: var(--golf);
+		margin-bottom: 24px;
 	}
 
 	.modulo-companias-grilla {
