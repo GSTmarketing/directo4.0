@@ -1504,9 +1504,9 @@ button {
 
 .ayuda-respuesta {
 	padding: 24px;
-    background-color: var(--violetaLight);
-    border-radius: 12px;
-    margin-bottom: 12px;
+	background-color: var(--violetaLight);
+	border-radius: 12px;
+	margin-bottom: 12px;
 }
 
 .ayuda-respuesta p {
@@ -3642,16 +3642,16 @@ button {
 
 	.menu-desktop_ayuda h6 {
 		font-size: var(--pingpong);
-        border: 1px solid var(--gris);
-        border-radius: 8px;
-        margin-bottom: 16px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        padding: 12px;
-        width: 140px;
-        background-color: var(--blanco);
+		border: 1px solid var(--gris);
+		border-radius: 8px;
+		margin-bottom: 16px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 40px;
+		padding: 12px;
+		width: 140px;
+		background-color: var(--blanco);
 	}
 
 	.menu-desktop_ayuda a {
@@ -3956,4 +3956,9 @@ button {
 	.container-hero h4 {
 		font-size: var(--golf);
 	}
-}
+
+	.button-faqs {
+		display: flex;
+		justify-content: center;
+		margin-top: 32px;
+	}
